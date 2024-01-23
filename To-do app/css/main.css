@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    ms-align-items:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:#0e1538;
+}
+.side-bar{
+    margin:0 auto;
+    
+  }
+  .container{
+    margin:0 auto;
+    min-width:100vm;
+    min-height:100%;
+    
+    border-radius:25px;
+    height:550px;
+  }
+  .container--main{
+    /* background-color:black; */
+    
+  }
+  .top-app{
+    display:flex;
+    flex-direction:column;
+    
+  }
+  .display-4{
+    margin: 0;
+    font-size: 50px;
+    color:white;
+    text-align:center;
+    
+  }
+  
+  .h4{
+    font-size:20px;
+    text-align:center;
+    color:white;
+  }
+
+  .card{
+    
+  }
+  .card-header{
+    font-size:15px;
+    color:white;
+  }
+  .aside {
+    height: 400px;
+  }
+  .main {
+    height: 400px;
+  }
+  .d-flex {
+    display: flex;
+  }
+  .task-title {
+    font-weight: 400;
+    padding-top: 5px;
+  }
+  .gray {
+    color: #BDBDBD;
+  }
+  .task-title--done {
+    text-decoration: line-through;
+    color: #CDCDCD;
+  }
+  .task-item__buttons {
+    display: flex;
+    column-gap: 5px;
+  }
+  .notify-holder {
+    height: 60px;
+    margin-bottom: 20px;
+  }
+ 
+  .empty-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background:white;
+    
+    }
+  .empty-list__title {
+    color:black;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 300;
+  }
+  .empty-list__icon {
+    color: #42BE2A;
+    font-size: 32px;
+  }
+  .btn-action {
+      background-color: #e0e5ea;
+      padding: 8px 10px;
+      cursor: pointer;
+      border: 0;
+      border-radius: 4px;
+      transition: opacity 0.2s ease-in;
+      opacity: 0.5;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .btn-action:hover {
+      background-color: #e0e5ea;
+      opacity: 1;
+  }
+  
+  .btn-action img {
+    pointer-events: none;
+  }
+  
+  .none {
+    display: none !important;
+  }
+
+  .float-right {
+    float: right;
+  }
+  .copyright {
+    margin-top: 40px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
+    /* position: absolute; */
+    /* bottom: 30px; */
+    /* left: 0; */
+    /* right: 0; */
+  }
+  .spisok-del{
+    /* display:none; */
+  }
